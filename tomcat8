@@ -1,0 +1,5 @@
+# place in /etc/sysconfig/tomcat8
+export JAVA_HOME=/usr/lib/jvm/jre
+export JAVA_OPTS='-server -Djava.awt.headless=true -Xmx1500M -Xms1500M' 
+export TOMCAT_HOME=/usr/local/tomcat
+export CATALINA_HOME=/usr/local/tomcat
